@@ -1,0 +1,43 @@
+h1 {
+  color: red;
+}
+
+header {
+  min-height: 3rem;
+  background-color: #000;
+  margin-bottom: 2rem;
+}
+header ul li {
+  margin-right: 2rem;
+}
+nav ul li {
+  margin-right: 2rem;
+}
+footer {
+  background-color: #000000;
+  min-height: 3rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  position: relative;
+}
+footer span {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+footer ul {
+  text-align: center;
+}
+footer ul li {
+  margin-right: 2rem;
+}
+footer ul li a {
+  color: #ffffff;
+  font-size: 16px;
+}
+footer ul li a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

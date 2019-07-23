@@ -1,0 +1,59 @@
+$ export FLASK_APP=app.py 
+$ export FLASK_ENV=development
+$ export FLASK_ENV=production
+$ flask run
+
+npm install -g typescript
+tsc main.ts
+tsc main.ts --outFile test.js  //giving a custom file name
+tsc main.ts --outFile ../test.js  //giving a custom file name in a specified directory
+tsc main.ts --outFile ../js/main.js   --watch
+
+
+
+<!-- <html>
+    <head>
+        <title>{{title}}</title>
+        //<link rel="stylesheet" href="./static/css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+
+    </head>
+    <body>
+        <header>  
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">News</a></li>
+                    </ul>
+            </nav>                 
+        </header>
+        
+        <h1>Hello World</h1>
+        <h2>{{title}}</h2>  //pass variable to templates
+
+        {% for item in programming_languages%}
+        <p>{{item}}</p>
+        {% endfor %}
+
+        <img src="./static/img/pexels-photo-1149056.jpeg" />
+        <footer>
+            @copy:2019-My Joint.com
+        </footer>
+`
+        <script src="./static/js/main.js"></script>
+    </body>
+</html> -->
+
+
+$ npm install -g sass
+$ sass --watch main.sass ../css/main.css
+
+https://sass-lang.com/
+https://css-tricks.com/
+https://codesandbox.io/
+https://reactjs.org/
+
+
+UC-DV6U8WU1
+url: ude.my/UC-DV6U8WU1
